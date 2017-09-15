@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://jimetevenard.com/ns/snoopix/rules">
+    <rule match="*.xml">
+        <validate/>
+    </rule>
+    <rule match="toto.xsl">
+        <validate href="file:///grammar" />
+    </rule>
+</rules>

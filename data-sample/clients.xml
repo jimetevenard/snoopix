@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" ?><clients>
+	<client>
+		<nom>Picard</nom>
+		<prenom>Élise</prenom>
+		<adresse>292-7016 Dui. Rue</adresse>
+		<commentaire>amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis eget</commentaire>
+	</client>
+	<client>
+		<nom>Royer</nom>
+		<prenom>Françoise</prenom>
+		<adresse>CP 506, 9621 Dui Rue</adresse>
+		<commentaire>congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam</commentaire>
+	</client>
+	<client>
+		<nom>Mallet</nom>
+		<prenom>Gabriel</prenom>
+		<adresse>165-4680 Neque Impasse</adresse>
+		<commentaire>dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis</commentaire>
+	</client>
+	<client>
+		<nom>Leroux</nom>
+		<prenom>Nicolas</prenom>
+		<adresse>985-2001 Malesuada Rue</adresse>
+		<commentaire>vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent interdum ligula eu enim. Etiam imperdiet dictum magna. Ut tincidunt orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo,</commentaire>
+	</client>
+	<client>
+		<nom>Breton</nom>
+		<prenom>Kyllian</prenom>
+		<adresse>Appartement 110-1899 Lacus. Ave</adresse>
+		<commentaire>lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi</commentaire>
+	</client>
+	<client>
+		<nom>Richard</nom>
+		<prenom>Aaron</prenom>
+		<adresse>Appartement 262-181 Tempus, Avenue</adresse>
+		<commentaire>eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc</commentaire>
+	</client>
+	<client>
+		<nom>Gautier</nom>
+		<prenom>Alexia</prenom>
+		<adresse>CP 156, 3548 Porttitor Chemin</adresse>
+		<commentaire>montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis</commentaire>
+	</client>
+	<client>
+		<nom>Denis</nom>
+		<prenom>Adam</prenom>
+		<adresse>7547 Placerat, Rue</adresse>
+		<commentaire>ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing ligula.</commentaire>
+	</client>
+	<client>
+		<nom>Dumas</nom>
+		<prenom>Benjamin</prenom>
+		<adresse>655-4138 Egestas Impasse</adresse>
+		<commentaire>natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio tristique pharetra. Quisque ac libero nec ligula consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales at, velit. Pellentesque ultricies dignissim lacus. Aliquam rutrum lorem ac risus. Morbi metus. Vivamus euismod urna. Nullam lobortis quam a felis ullamcorper viverra. Maecenas iaculis aliquet</commentaire>
+	</client>
+	<client>
+		<nom>Brun</nom>
+		<prenom>Titouan</prenom>
+		<adresse>CP 105, 8752 Faucibus Avenue</adresse>
+		<commentaire>lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu.</commentaire>
+	</client>
+	<client>
+		<nom>Vasseur</nom>
+		<prenom>Léon</prenom>
+		<adresse>Appartement 350-8662 A Rue</adresse>
+		<commentaire>est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi</commentaire>
+	</client>
+	<client>
+		<nom>Garcia</nom>
+		<prenom>Léonie</prenom>
+		<adresse>CP 134, 5443 Rhoncus. Avenue</adresse>
+		<commentaire>orci quis lectus. Nullam suscipit, est ac facilisis facilisis, magna tellus faucibus leo, in lobortis tellus justo sit amet nulla. Donec non justo. Proin non massa non ante bibendum ullamcorper. Duis cursus, diam at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id</commentaire>
+	</client>
+	<client>
+		<nom>Gay</nom>
+		<prenom>Élouan</prenom>
+		<adresse>Appartement 856-6750 Et Rue</adresse>
+		<commentaire>augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna.</commentaire>
+	</client>
+	<client>
+		<nom>Albert</nom>
+		<prenom>Adrien</prenom>
+		<adresse>5199 Urna, Avenue</adresse>
+		<commentaire>in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula</commentaire>
+	</client>
+	<client>
+		<nom>Fleury</nom>
+		<prenom>Éléna</prenom>
+		<adresse>864-631 Elementum, Impasse</adresse>
+		<commentaire>metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor</commentaire>
+	</client>
+	<client>
+		<nom>Fernandez</nom>
+		<prenom>Titouan</prenom>
+		<adresse>8149 Consequat Avenue</adresse>
+		<commentaire>dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan</commentaire>
+	</client>
+	<client>
+		<nom>Leveque</nom>
+		<prenom>Laura</prenom>
+		<adresse>Appartement 618-8617 Taciti Impasse</adresse>
+		<commentaire>Sed eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum placerat,</commentaire>
+	</client>
+	<client>
+		<nom>Lemoine</nom>
+		<prenom>Kilian</prenom>
+		<adresse>685-2718 Suscipit Ave</adresse>
+		<commentaire>vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla</commentaire>
+	</client>
+	<client>
+		<nom>Brunet</nom>
+		<prenom>Catherine</prenom>
+		<adresse>988-5841 Cursus Rue</adresse>
+		<commentaire>sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula</commentaire>
+	</client>
+	<client>
+		<nom>Dupuis</nom>
+		<prenom>Margot</prenom>
+		<adresse>6216 Pede. Impasse</adresse>
+		<commentaire>Sed diam lorem, auctor quis, tristique ac, eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae</commentaire>
+	</client>
+	<client>
+		<nom>Aubry</nom>
+		<prenom>Antonin</prenom>
+		<adresse>CP 468, 9183 Sed Impasse</adresse>
+		<commentaire>arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed id risus quis diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra,</commentaire>
+	</client>
+	<client>
+		<nom>Adam</nom>
+		<prenom>Jordan</prenom>
+		<adresse>Appartement 359-6762 Amet Rue</adresse>
+		<commentaire>neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</commentaire>
+	</client>
+	<client>
+		<nom>Robert</nom>
+		<prenom>Jade</prenom>
+		<adresse>6326 Odio Av.</adresse>
+		<commentaire>vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu,</commentaire>
+	</client>
+	<client>
+		<nom>Mallet</nom>
+		<prenom>Lily</prenom>
+		<adresse>CP 228, 3630 Eget Chemin</adresse>
+		<commentaire>sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum.</commentaire>
+	</client>
+	<client>
+		<nom>Royer</nom>
+		<prenom>Lou</prenom>
+		<adresse>Appartement 466-4508 Vestibulum Ave</adresse>
+		<commentaire>purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim.</commentaire>
+	</client>
+	<client>
+		<nom>Charpentier</nom>
+		<prenom>Esteban</prenom>
+		<adresse>CP 346, 696 Molestie Av.</adresse>
+		<commentaire>lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed id risus quis diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris.</commentaire>
+	</client>
+	<client>
+		<nom>Evrard</nom>
+		<prenom>Baptiste</prenom>
+		<adresse>CP 280, 5710 Felis. Rd.</adresse>
+		<commentaire>orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia</commentaire>
+	</client>
+	<client>
+		<nom>Lemoine</nom>
+		<prenom>Clara</prenom>
+		<adresse>3237 Nunc Av.</adresse>
+		<commentaire>purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod</commentaire>
+	</client>
+	<client>
+		<nom>Richard</nom>
+		<prenom>Julia</prenom>
+		<adresse>611-966 Libero Av.</adresse>
+		<commentaire>pellentesque. Sed dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros. Nam consequat dolor vitae dolor. Donec fringilla. Donec feugiat metus sit amet ante. Vivamus non lorem vitae odio sagittis semper. Nam tempor diam dictum sapien. Aenean massa. Integer vitae nibh. Donec est mauris,</commentaire>
+	</client>
+	<client>
+		<nom>Roux</nom>
+		<prenom>Marion</prenom>
+		<adresse>993-3610 Sagittis Rd.</adresse>
+		<commentaire>Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit nonummy.</commentaire>
+	</client>
+	<client>
+		<nom>Caron</nom>
+		<prenom>Martin</prenom>
+		<adresse>693-8923 Tellus Ave</adresse>
+		<commentaire>blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper,</commentaire>
+	</client>
+	<client>
+		<nom>Caron</nom>
+		<prenom>Catherine</prenom>
+		<adresse>CP 489, 5669 Auctor Chemin</adresse>
+		<commentaire>ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat.</commentaire>
+	</client>
+	<client>
+		<nom>Deschamps</nom>
+		<prenom>Maxime</prenom>
+		<adresse>CP 830, 7048 Egestas Route</adresse>
+		<commentaire>odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis</commentaire>
+	</client>
+	<client>
+		<nom>Millet</nom>
+		<prenom>Julien</prenom>
+		<adresse>CP 555, 6535 Interdum Avenue</adresse>
+		<commentaire>pellentesque eget, dictum placerat, augue. Sed molestie. Sed id risus quis diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci</commentaire>
+	</client>
+	<client>
+		<nom>Lambert</nom>
+		<prenom>Tom</prenom>
+		<adresse>Appartement 312-4985 Et Av.</adresse>
+		<commentaire>elit. Curabitur sed tortor. Integer aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien.</commentaire>
+	</client>
+	<client>
+		<nom>Maillard</nom>
+		<prenom>Titouan</prenom>
+		<adresse>373 Ut Impasse</adresse>
+		<commentaire>nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula</commentaire>
+	</client>
+	<client>
+		<nom>Remy</nom>
+		<prenom>Pauline</prenom>
+		<adresse>CP 670, 788 Cras Route</adresse>
+		<commentaire>egestas a, scelerisque sed, sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio semper</commentaire>
+	</client>
+	<client>
+		<nom>Bouvier</nom>
+		<prenom>Kimberley</prenom>
+		<adresse>Appartement 650-266 Fringilla Ave</adresse>
+		<commentaire>nulla. In tincidunt congue turpis. In condimentum. Donec at arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue,</commentaire>
+	</client>
+	<client>
+		<nom>Mallet</nom>
+		<prenom>Maxence</prenom>
+		<adresse>CP 268, 3967 Urna Route</adresse>
+		<commentaire>Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor</commentaire>
+	</client>
+	<client>
+		<nom>Millet</nom>
+		<prenom>Lilian</prenom>
+		<adresse>Appartement 348-5115 Erat Avenue</adresse>
+		<commentaire>est mauris, rhoncus id, mollis nec, cursus a, enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue</commentaire>
+	</client>
+	<client>
+		<nom>Huet</nom>
+		<prenom>Lilou</prenom>
+		<adresse>6555 Lectus Rd.</adresse>
+		<commentaire>lorem semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis</commentaire>
+	</client>
+	<client>
+		<nom>David</nom>
+		<prenom>Agathe</prenom>
+		<adresse>8378 Tristique Rd.</adresse>
+		<commentaire>In nec orci. Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet risus. Donec egestas. Aliquam nec enim. Nunc ut erat. Sed nunc est, mollis non, cursus non, egestas a, dui. Cras pellentesque. Sed dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu eros. Nam consequat dolor vitae dolor. Donec fringilla. Donec feugiat metus sit amet ante. Vivamus non lorem vitae odio sagittis</commentaire>
+	</client>
+	<client>
+		<nom>Arnaud</nom>
+		<prenom>Gabriel</prenom>
+		<adresse>929-8723 Nam Ave</adresse>
+		<commentaire>eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros.</commentaire>
+	</client>
+	<client>
+		<nom>Francois</nom>
+		<prenom>Kilian</prenom>
+		<adresse>CP 719, 6722 Nullam Chemin</adresse>
+		<commentaire>ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu</commentaire>
+	</client>
+	<client>
+		<nom>Bonnet</nom>
+		<prenom>Nathan</prenom>
+		<adresse>623-2128 Mi Chemin</adresse>
+		<commentaire>sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc</commentaire>
+	</client>
+	<client>
+		<nom>Schmitt</nom>
+		<prenom>Guillemette</prenom>
+		<adresse>Appartement 394-9483 Pede Avenue</adresse>
+		<commentaire>non, luctus sit amet, faucibus ut, nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus,</commentaire>
+	</client>
+	<client>
+		<nom>Brun</nom>
+		<prenom>Noah</prenom>
+		<adresse>Appartement 379-580 Neque. Avenue</adresse>
+		<commentaire>lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare.</commentaire>
+	</client>
+	<client>
+		<nom>Riviere</nom>
+		<prenom>Arthur</prenom>
+		<adresse>667-7727 Ut Ave</adresse>
+		<commentaire>nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi</commentaire>
+	</client>
+	<client>
+		<nom>Masson</nom>
+		<prenom>Éloïse</prenom>
+		<adresse>CP 731, 4597 Et Rd.</adresse>
+		<commentaire>nunc, ullamcorper eu, euismod ac, fermentum vel, mauris. Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor. Fusce feugiat.</commentaire>
+	</client>
+	<client>
+		<nom>Lacroix</nom>
+		<prenom>Bastien</prenom>
+		<adresse>Appartement 711-2726 Auctor, Rue</adresse>
+		<commentaire>mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut eros non enim commodo hendrerit. Donec porttitor tellus non magna. Nam ligula elit, pretium et, rutrum non, hendrerit id, ante. Nunc mauris sapien, cursus in, hendrerit consectetuer, cursus et, magna. Praesent</commentaire>
+	</client>
+	<client>
+		<nom>Le gall</nom>
+		<prenom>Valentin</prenom>
+		<adresse>604-4803 Convallis Av.</adresse>
+		<commentaire>nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris magna. Duis dignissim tempor arcu. Vestibulum ut</commentaire>
+	</client>
+	<client>
+		<nom>Rey</nom>
+		<prenom>Julie</prenom>
+		<adresse>986-7860 Lacinia Impasse</adresse>
+		<commentaire>sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas</commentaire>
+	</client>
+	<client>
+		<nom>Lopez</nom>
+		<prenom>Fanny</prenom>
+		<adresse>Appartement 157-7265 Porta Avenue</adresse>
+		<commentaire>ornare, elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus</commentaire>
+	</client>
+	<client>
+		<nom>Henry</nom>
+		<prenom>Macéo</prenom>
+		<adresse>CP 723, 6412 Mus. Av.</adresse>
+		<commentaire>Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in magna.</commentaire>
+	</client>
+	<client>
+		<nom>Dufour</nom>
+		<prenom>Yohan</prenom>
+		<adresse>Appartement 765-9102 Phasellus Chemin</adresse>
+		<commentaire>mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada malesuada. Integer id magna et ipsum cursus vestibulum. Mauris</commentaire>
+	</client>
+	<client>
+		<nom>Aubry</nom>
+		<prenom>Anaël</prenom>
+		<adresse>CP 393, 9047 Ut Av.</adresse>
+		<commentaire>at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus</commentaire>
+	</client>
+	<client>
+		<nom>Charles</nom>
+		<prenom>Clémence</prenom>
+		<adresse>780-7594 Aliquam Impasse</adresse>
+		<commentaire>nulla. Cras eu tellus eu augue porttitor interdum. Sed auctor odio a purus. Duis elementum, dui quis accumsan convallis, ante lectus convallis est, vitae sodales nisi magna sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut</commentaire>
+	</client>
+	<client>
+		<nom>Sanchez</nom>
+		<prenom>Clotilde</prenom>
+		<adresse>9940 Molestie. Route</adresse>
+		<commentaire>molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl. Maecenas malesuada fringilla est. Mauris eu turpis. Nulla aliquet. Proin velit. Sed malesuada augue ut lacus. Nulla tincidunt, neque vitae semper egestas, urna justo faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse</commentaire>
+	</client>
+	<client>
+		<nom>Guerin</nom>
+		<prenom>Jérémy</prenom>
+		<adresse>152 Ante Chemin</adresse>
+		<commentaire>odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy ut,</commentaire>
+	</client>
+	<client>
+		<nom>Dupuis</nom>
+		<prenom>Anaïs</prenom>
+		<adresse>8052 Non Rue</adresse>
+		<commentaire>luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare,</commentaire>
+	</client>
+	<client>
+		<nom>Perez</nom>
+		<prenom>Gabin</prenom>
+		<adresse>CP 166, 7609 Dolor. Chemin</adresse>
+		<commentaire>Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non,</commentaire>
+	</client>
+	<client>
+		<nom>Collet</nom>
+		<prenom>Mathéo</prenom>
+		<adresse>160-3636 Odio Av.</adresse>
+		<commentaire>ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla</commentaire>
+	</client>
+	<client>
+		<nom>Muller</nom>
+		<prenom>Corentin</prenom>
+		<adresse>Appartement 979-5806 Ligula. Ave</adresse>
+		<commentaire>Integer sem elit, pharetra ut, pharetra sed, hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor. Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam</commentaire>
+	</client>
+	<client>
+		<nom>Arnaud</nom>
+		<prenom>Margaux</prenom>
+		<adresse>CP 125, 3997 Luctus Rue</adresse>
+		<commentaire>sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum</commentaire>
+	</client>
+	<client>
+		<nom>Roger</nom>
+		<prenom>Evan</prenom>
+		<adresse>2322 Et Av.</adresse>
+		<commentaire>euismod urna. Nullam lobortis quam a felis ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor quis, tristique ac, eleifend vitae, erat. Vivamus nisi. Mauris nulla. Integer urna. Vivamus molestie dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas ligula. Nullam feugiat placerat velit.</commentaire>
+	</client>
+	<client>
+		<nom>Blanc</nom>
+		<prenom>Yohan</prenom>
+		<adresse>5167 Morbi Route</adresse>
+		<commentaire>senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet</commentaire>
+	</client>
+	<client>
+		<nom>Collin</nom>
+		<prenom>Paul</prenom>
+		<adresse>Appartement 263-2746 Maecenas Avenue</adresse>
+		<commentaire>In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque sed sem egestas blandit. Nam nulla magna, malesuada vel, convallis in, cursus et, eros. Proin ultrices. Duis volutpat nunc sit amet</commentaire>
+	</client>
+	<client>
+		<nom>Lemoine</nom>
+		<prenom>Félix</prenom>
+		<adresse>514-9615 Pede Rd.</adresse>
+		<commentaire>malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris sit amet lorem semper auctor. Mauris vel turpis. Aliquam adipiscing lobortis risus. In mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce</commentaire>
+	</client>
+	<client>
+		<nom>Roux</nom>
+		<prenom>Lorenzo</prenom>
+		<adresse>1633 Tempus Avenue</adresse>
+		<commentaire>sed dui. Fusce aliquam, enim nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor nibh sit amet orci. Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus</commentaire>
+	</client>
+	<client>
+		<nom>Andre</nom>
+		<prenom>Yüna</prenom>
+		<adresse>858-6017 Porttitor Av.</adresse>
+		<commentaire>dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris blandit mattis. Cras eget nisi dictum augue malesuada</commentaire>
+	</client>
+	<client>
+		<nom>Pierre</nom>
+		<prenom>Catherine</prenom>
+		<adresse>CP 238, 6729 Gravida. Route</adresse>
+		<commentaire>sapien. Nunc pulvinar arcu et pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio</commentaire>
+	</client>
+	<client>
+		<nom>Rousseau</nom>
+		<prenom>Léa</prenom>
+		<adresse>615-3749 Libero. Rue</adresse>
+		<commentaire>Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec</commentaire>
+	</client>
+	<client>
+		<nom>Andre</nom>
+		<prenom>Zacharis</prenom>
+		<adresse>CP 633, 1779 Cubilia Rue</adresse>
+		<commentaire>faucibus lectus, a sollicitudin orci sem eget massa. Suspendisse eleifend. Cras sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in</commentaire>
+	</client>
+	<client>
+		<nom>Durand</nom>
+		<prenom>Anaëlle</prenom>
+		<adresse>973-104 Placerat. Avenue</adresse>
+		<commentaire>ornare. In faucibus. Morbi vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris. Morbi non sapien molestie orci tincidunt adipiscing. Mauris molestie pharetra nibh. Aliquam ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam. Duis mi</commentaire>
+	</client>
+	<client>
+		<nom>Lopez</nom>
+		<prenom>Margot</prenom>
+		<adresse>Appartement 338-3972 Cras Chemin</adresse>
+		<commentaire>aliquam adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a, malesuada id, erat. Etiam vestibulum massa rutrum magna. Cras convallis convallis dolor. Quisque tincidunt pede ac urna. Ut tincidunt vehicula risus. Nulla eget metus eu erat semper rutrum. Fusce dolor quam, elementum at, egestas a, scelerisque sed, sapien. Nunc</commentaire>
+	</client>
+	<client>
+		<nom>Brunet</nom>
+		<prenom>Maïwenn</prenom>
+		<adresse>CP 549, 4192 Aenean Av.</adresse>
+		<commentaire>Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit.</commentaire>
+	</client>
+	<client>
+		<nom>Adam</nom>
+		<prenom>Noah</prenom>
+		<adresse>Appartement 906-5822 Arcu. Rd.</adresse>
+		<commentaire>Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing ligula. Aenean gravida nunc sed pede. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel arcu eu odio tristique pharetra. Quisque ac libero nec ligula consectetuer rhoncus. Nullam velit dui, semper et, lacinia vitae, sodales</commentaire>
+	</client>
+	<client>
+		<nom>Le gall</nom>
+		<prenom>Florian</prenom>
+		<adresse>Appartement 971-3759 Ridiculus Rd.</adresse>
+		<commentaire>euismod mauris eu elit. Nulla facilisi. Sed neque. Sed eget lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere</commentaire>
+	</client>
+	<client>
+		<nom>Aubry</nom>
+		<prenom>Lamia</prenom>
+		<adresse>CP 100, 8956 Ligula. Impasse</adresse>
+		<commentaire>luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis sit amet diam eu dolor egestas rhoncus. Proin nisl sem, consequat nec, mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed molestie. Sed id risus quis diam luctus lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</commentaire>
+	</client>
+	<client>
+		<nom>Durand</nom>
+		<prenom>Marwane</prenom>
+		<adresse>502-4079 Vitae Impasse</adresse>
+		<commentaire>magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus. Aenean sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum</commentaire>
+	</client>
+	<client>
+		<nom>Poirier</nom>
+		<prenom>Bastien</prenom>
+		<adresse>Appartement 479-4332 Maecenas Avenue</adresse>
+		<commentaire>quis diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio semper cursus. Integer mollis. Integer tincidunt aliquam arcu. Aliquam ultrices iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In nec orci. Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet</commentaire>
+	</client>
+	<client>
+		<nom>Rousseau</nom>
+		<prenom>Evan</prenom>
+		<adresse>450-8337 Mauris. Rue</adresse>
+		<commentaire>mi tempor lorem, eget mollis lectus pede et risus. Quisque libero lacus, varius et, euismod et, commodo at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet luctus vulputate, nisi sem semper erat, in consectetuer ipsum nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor at risus. Nunc</commentaire>
+	</client>
+	<client>
+		<nom>Noel</nom>
+		<prenom>Noah</prenom>
+		<adresse>690 Mauris Ave</adresse>
+		<commentaire>risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc ac mattis ornare, lectus ante dictum mi, ac mattis velit justo nec ante. Maecenas mi felis, adipiscing fringilla, porttitor vulputate, posuere vulputate, lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo. Vivamus nibh dolor, nonummy ac, feugiat non, lobortis quis, pede. Suspendisse dui. Fusce diam nunc,</commentaire>
+	</client>
+	<client>
+		<nom>Le gall</nom>
+		<prenom>Élisa</prenom>
+		<adresse>705 Vel Rue</adresse>
+		<commentaire>sed leo. Cras vehicula aliquet libero. Integer in magna. Phasellus dolor elit, pellentesque a, facilisis non, bibendum sed, est. Nunc laoreet lectus quis massa. Mauris vestibulum, neque sed dictum eleifend, nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est tempor bibendum. Donec felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla. Cras</commentaire>
+	</client>
+	<client>
+		<nom>Richard</nom>
+		<prenom>Maryam</prenom>
+		<adresse>351 Nunc Ave</adresse>
+		<commentaire>at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed nulla ante, iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris</commentaire>
+	</client>
+	<client>
+		<nom>Gauthier</nom>
+		<prenom>Marine</prenom>
+		<adresse>CP 300, 8959 Sem, Impasse</adresse>
+		<commentaire>velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis eget varius ultrices, mauris ipsum porta elit, a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam iaculis, lacus pede sagittis augue, eu tempor erat neque non quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam fringilla cursus purus. Nullam scelerisque neque</commentaire>
+	</client>
+	<client>
+		<nom>Colin</nom>
+		<prenom>Chaïma</prenom>
+		<adresse>CP 961, 4042 Non Avenue</adresse>
+		<commentaire>dictum sapien. Aenean massa. Integer vitae nibh. Donec est mauris, rhoncus id, mollis nec, cursus a, enim. Suspendisse aliquet, sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at</commentaire>
+	</client>
+	<client>
+		<nom>Renaud</nom>
+		<prenom>Florian</prenom>
+		<adresse>Appartement 578-8163 Tellus. Impasse</adresse>
+		<commentaire>diam at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras dolor dolor, tempus non, lacinia at, iaculis quis, pede. Praesent eu dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique</commentaire>
+	</client>
+	<client>
+		<nom>Collet</nom>
+		<prenom>Guillemette</prenom>
+		<adresse>4065 Volutpat. Av.</adresse>
+		<commentaire>dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec metus facilisis lorem tristique aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam ligula tortor, dictum eu, placerat eget, venenatis a, magna.</commentaire>
+	</client>
+	<client>
+		<nom>Bouvier</nom>
+		<prenom>Éléna</prenom>
+		<adresse>708 Malesuada Avenue</adresse>
+		<commentaire>aliquam eros turpis non enim. Mauris quis turpis vitae purus gravida sagittis. Duis gravida. Praesent eu nulla at sem molestie sodales. Mauris blandit enim consequat purus. Maecenas libero est, congue a, aliquet vel, vulputate eu, odio. Phasellus at augue id ante dictum cursus. Nunc mauris elit, dictum eu, eleifend nec, malesuada ut, sem. Nulla interdum. Curabitur dictum. Phasellus</commentaire>
+	</client>
+	<client>
+		<nom>Lebrun</nom>
+		<prenom>Zoé</prenom>
+		<adresse>CP 737, 9161 Auctor Rue</adresse>
+		<commentaire>in lobortis tellus justo sit amet nulla. Donec non justo. Proin non massa non ante bibendum ullamcorper. Duis cursus, diam at pretium aliquet, metus urna convallis erat, eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel, venenatis vel, faucibus id, libero. Donec consectetuer mauris id sapien. Cras</commentaire>
+	</client>
+	<client>
+		<nom>Picard</nom>
+		<prenom>Tristan</prenom>
+		<adresse>9861 Metus. Rd.</adresse>
+		<commentaire>at, libero. Morbi accumsan laoreet ipsum. Curabitur consequat, lectus sit amet luctus vulputate, nisi sem semper erat, in consectetuer ipsum nunc id enim. Curabitur massa. Vestibulum accumsan neque et nunc. Quisque ornare tortor at risus. Nunc ac sem ut dolor dapibus gravida. Aliquam tincidunt, nunc</commentaire>
+	</client>
+	<client>
+		<nom>Moreau</nom>
+		<prenom>Cloé</prenom>
+		<adresse>CP 644, 2501 Sagittis. Ave</adresse>
+		<commentaire>dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed eu nibh vulputate mauris sagittis</commentaire>
+	</client>
+	<client>
+		<nom>Philippe</nom>
+		<prenom>Margaux</prenom>
+		<adresse>CP 700, 3582 Libero Route</adresse>
+		<commentaire>Suspendisse aliquet molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor, est ac mattis semper, dui lectus rutrum urna, nec luctus felis purus ac tellus. Suspendisse sed dolor. Fusce mi lorem, vehicula et, rutrum eu, ultrices sit amet, risus. Donec nibh enim, gravida sit amet, dapibus id, blandit at, nisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur</commentaire>
+	</client>
+	<client>
+		<nom>Bonnet</nom>
+		<prenom>Florian</prenom>
+		<adresse>222-1456 Id Route</adresse>
+		<commentaire>ornare, libero at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare lectus justo eu arcu. Morbi sit amet massa. Quisque porttitor eros nec tellus. Nunc lectus pede, ultrices a, auctor non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat ornare, facilisis eget, ipsum. Donec sollicitudin adipiscing ligula. Aenean gravida nunc</commentaire>
+	</client>
+	<client>
+		<nom>Gauthier</nom>
+		<prenom>Cloé</prenom>
+		<adresse>767 Risus Ave</adresse>
+		<commentaire>hendrerit a, arcu. Sed et libero. Proin mi. Aliquam gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum nec, euismod in, dolor. Fusce feugiat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere, enim nisl elementum purus, accumsan interdum libero dui nec</commentaire>
+	</client>
+	<client>
+		<nom>Lambert</nom>
+		<prenom>Adam</prenom>
+		<adresse>Appartement 434-9410 Mollis. Rue</adresse>
+		<commentaire>pede. Nunc sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed, facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet magna a neque. Nullam ut nisi a odio semper cursus. Integer mollis. Integer tincidunt aliquam</commentaire>
+	</client>
+	<client>
+		<nom>Mathieu</nom>
+		<prenom>Anna</prenom>
+		<adresse>CP 558, 2057 Lectus Ave</adresse>
+		<commentaire>Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc interdum feugiat. Sed nec</commentaire>
+	</client>
+	<client>
+		<nom>Gaillard</nom>
+		<prenom>Evan</prenom>
+		<adresse>983-9267 Morbi Route</adresse>
+		<commentaire>pellentesque, tellus sem mollis dui, in sodales elit erat vitae risus. Duis a mi fringilla mi lacinia mattis. Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit elit fermentum risus, at fringilla purus mauris a nunc. In at pede. Cras vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend egestas. Sed pharetra, felis</commentaire>
+	</client>
+	<client>
+		<nom>Le gall</nom>
+		<prenom>Lena</prenom>
+		<adresse>Appartement 824-3920 Et, Chemin</adresse>
+		<commentaire>Nulla eu neque pellentesque massa lobortis ultrices. Vivamus rhoncus. Donec est. Nunc ullamcorper, velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis arcu vel quam dignissim pharetra. Nam ac nulla. In tincidunt congue turpis. In condimentum.</commentaire>
+	</client>
+</clients>
