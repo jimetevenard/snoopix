@@ -36,8 +36,8 @@ public class Rule implements Comparable<Rule> {
 	}
 
 	public boolean match(File file) {
-		// TODO Auto-generated method stub
-		return false;
+		String regEx = fileNamePattern.replace(".", "\\.").replace("*", ".*");
+		return file.getName().matches(regEx);
 	}
 
 	@Override

@@ -1,6 +1,8 @@
 package com.jimetevenard.snoopix.rule;
 
 import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 
 import com.jimetevenard.snoopix.explorer.Explorer;
 import com.jimetevenard.snoopix.explorer.Strategy;
@@ -10,7 +12,7 @@ public class RuleSource {
 
 	private Strategy strategy;
 	private RuleSet uniqueRuleSet;
-	private RuleSet rootRuleSet;
+	private Map<File, RuleSet> allRuleSets;
 	private File rootDir;
 	private RuleParser ruleParser;
 
@@ -18,20 +20,22 @@ public class RuleSource {
 		super();
 		this.strategy = strategy;
 		this.rootDir = rootDir;
+		this.allRuleSets = new HashMap<>();
 		this.ruleParser = new DomRuleParser();
 
-		if(strategy.getUniqueRulesFile() != null){
+		if (strategy.getUniqueRulesFile() != null) {
 			uniqueRuleSet = ruleParser.parseRulesFile(strategy.getUniqueRulesFile());
 			for (Rule rule : uniqueRuleSet) {
 				rule.setDirectory(rootDir);
 				rule.computePriority(Explorer.ROOT_DEPHT);
 			}
 		} else {
-			rootRuleSet = ruleParser.parseRulesFile(findRuleFile(rootDir));
+			RuleSet rootRuleSet = ruleParser.parseRulesFile(findRuleFile(rootDir));
 			for (Rule rule : rootRuleSet) {
 				rule.setDirectory(rootDir);
 				rule.computePriority(Explorer.ROOT_DEPHT);
 			}
+			allRuleSets.put(rootDir, rootRuleSet);
 		}
 	}
 
@@ -40,23 +44,27 @@ public class RuleSource {
 	}
 
 	public RuleSet ruleSet(File directory, int depht) {
-		
-		if(strategy.getUniqueRulesFile() != null){
-			return uniqueRuleSet;
-		} else {
-			RuleSet ruleSet = rootRuleSet;
-			if (strategy.isFetchRulesRecursively() && !rootDir.equals(directory)) {
-				RuleSet localRules = ruleParser.parseRulesFile(findRuleFile(directory));
-				for (Rule rule : localRules) {
-					rule.setDirectory(directory);
-					rule.computePriority(depht);
-				}
-				ruleSet.addAll(localRules);
 
+		if (allRuleSets.get(directory) == null) {
+			RuleSet localRules = ruleParser.parseRulesFile(findRuleFile(directory));
+			for (Rule rule : localRules) {
+				rule.setDirectory(directory);
+				rule.computePriority(depht);
 			}
-			return ruleSet;
+			allRuleSets.put(directory, localRules);
 		}
 
+		return getApplicableRules(directory);
+
+	}
+
+	private RuleSet getApplicableRules(File directory) {
+		RuleSet theRules = new RuleSet();
+		theRules.addAll(allRuleSets.get(directory));
+		if (!directory.equals(rootDir)) {
+			theRules.addAll(getApplicableRules(directory.getParentFile()));
+		}
+		return theRules;
 	}
 
 }

@@ -1,6 +1,7 @@
 package com.jimetevenard.snoopix;
 
 import java.io.File;
+import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,6 +12,7 @@ import com.jimetevenard.snoopix.explorer.Source;
 import com.jimetevenard.snoopix.explorer.Strategy;
 import com.jimetevenard.snoopix.util.CommandLineArgs;
 import com.jimetevenard.snoopix.util.CommandLineArgs.CommandLineException;
+import com.jimetevenard.snoopix.validation.ValidationResult;
 
 public class Snoopix {
 	
@@ -31,6 +33,12 @@ public class Snoopix {
 
 			Explorer explorer = new Explorer(sourceDir, strategy);
 			explorer.startExploring();
+
+			List<ValidationResult> testResultats = explorer.getResult();
+			for (ValidationResult v : testResultats) {
+				System.out.println("YOLO rrr : " + v.getFileProcessed() + " - "
+						+ (v.getRuleApplied() == null ? "No matching rule" : v.getRuleApplied().getFileNamePattern()));
+			}
 
 		} catch (CommandLineException | ExplorationException e) {
 			// TODO Auto-generated catch block

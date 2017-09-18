@@ -95,4 +95,8 @@ public class Explorer {
 		}
 	}
 
+	public List<ValidationResult> getResult() {
+		return result;
+	}
+
 }

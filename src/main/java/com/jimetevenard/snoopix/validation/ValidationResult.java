@@ -48,4 +48,10 @@ public class ValidationResult {
 		return new ValidationResult(null, fileProcessed);
 	}
 
+	@Override
+	public String toString() {
+		return "ValidationResult [ruleApplied=" + ruleApplied + ", fileProcessed=" + fileProcessed + ", errors="
+				+ errors + "]";
+	}
+
 }
