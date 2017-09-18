@@ -1,6 +1,7 @@
 package com.jimetevenard.snoopix.rule;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.jimetevenard.snoopix.validation.ValidationStep;
@@ -19,11 +20,32 @@ public class Rule implements Comparable<Rule> {
 	// validations to process
 	private List<ValidationStep> validationSteps;
 
+	public Rule() {
+		validationSteps = new ArrayList<>();
+	}
+
+	public void computePriority(int depht) {
+		int prio = depht * 100;
+		if (!fileNamePattern.contains("*")) {
+			prio = prio + 50;
+		}
+
+		// TODO chemins de reps...
+
+		this.priority = this.priority + prio;
+	}
+
+	public boolean match(File file) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 	@Override
 	public int compareTo(Rule o) {
 		// TODO Auto-generated method stub
 		return this.getPriority() - o.getPriority();
 	}
+
 
 	@Override
 	public int hashCode() {
@@ -84,5 +106,20 @@ public class Rule implements Comparable<Rule> {
 	public List<ValidationStep> getValidationSteps() {
 		return validationSteps;
 	}
+
+	public void setDirectory(File directory) {
+		this.directory = directory;
+	}
+
+	public void setFileNamePattern(String fileNamePattern) {
+		this.fileNamePattern = fileNamePattern;
+	}
+
+	@Override
+	public String toString() {
+		return "Rule [directory=" + directory + ", priority=" + priority + ", fileNamePattern=" + fileNamePattern
+				+ ", validationSteps=" + validationSteps + "]";
+	}
+
 
 }

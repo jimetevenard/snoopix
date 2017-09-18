@@ -39,5 +39,6 @@ Les règles peuvent être surchargées pour chaque sous-répertoire, la plus sp�
 On peut spécifier les règles via un/des fichier(s) XML. 
 
 - On peut passer un fichier unique en paramètre au lancement 
-- En passant en paramètre un nom de fichier qui sera recherché (récursivement) dans le répertoire source. (fonctionnement similaire au .htaccess des serveurs apache) 
+- En passant en paramètre un nom de fichier qui sera recherché (récursivement) dans le répertoire source.  
+  Les règles définies dans le contexte d'un sous-répertoire surchargent les règles du dossier parent. (fonctionnement similaire au .htaccess des serveurs apache) 
 - ( Par défaut, snoopix va chercher dans chaque répertoire un fichier nommé "validation.xml") 

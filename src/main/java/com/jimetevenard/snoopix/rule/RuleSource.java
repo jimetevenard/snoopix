@@ -2,6 +2,7 @@ package com.jimetevenard.snoopix.rule;
 
 import java.io.File;
 
+import com.jimetevenard.snoopix.explorer.Explorer;
 import com.jimetevenard.snoopix.explorer.Strategy;
 import com.jimetevenard.snoopix.ruleParserImp.DomRuleParser;
 
@@ -13,7 +14,7 @@ public class RuleSource {
 	private File rootDir;
 	private RuleParser ruleParser;
 
-	RuleSource(Strategy strategy, File rootDir) {
+	public RuleSource(Strategy strategy, File rootDir) {
 		super();
 		this.strategy = strategy;
 		this.rootDir = rootDir;
@@ -21,8 +22,16 @@ public class RuleSource {
 
 		if(strategy.getUniqueRulesFile() != null){
 			uniqueRuleSet = ruleParser.parseRulesFile(strategy.getUniqueRulesFile());
+			for (Rule rule : uniqueRuleSet) {
+				rule.setDirectory(rootDir);
+				rule.computePriority(Explorer.ROOT_DEPHT);
+			}
 		} else {
 			rootRuleSet = ruleParser.parseRulesFile(findRuleFile(rootDir));
+			for (Rule rule : rootRuleSet) {
+				rule.setDirectory(rootDir);
+				rule.computePriority(Explorer.ROOT_DEPHT);
+			}
 		}
 	}
 
@@ -30,14 +39,20 @@ public class RuleSource {
 		return new File(dir.getAbsolutePath() + '/' + strategy.getRulesFileName());
 	}
 
-	public RuleSet ruleSet(File directory) {
+	public RuleSet ruleSet(File directory, int depht) {
 		
 		if(strategy.getUniqueRulesFile() != null){
 			return uniqueRuleSet;
 		} else {
 			RuleSet ruleSet = rootRuleSet;
 			if (strategy.isFetchRulesRecursively() && !rootDir.equals(directory)) {
-				ruleSet.addAll(ruleParser.parseRulesFile(findRuleFile(directory)));
+				RuleSet localRules = ruleParser.parseRulesFile(findRuleFile(directory));
+				for (Rule rule : localRules) {
+					rule.setDirectory(directory);
+					rule.computePriority(depht);
+				}
+				ruleSet.addAll(localRules);
+
 			}
 			return ruleSet;
 		}

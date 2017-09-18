@@ -16,6 +16,7 @@ public class Snoopix {
 	
 	private static Strategy strategy;
 	public static final Logger logger = LogManager.getLogger(Snoopix.class);
+	public static final String NAMESPACE_URI = "http://jimetevenard.com/ns/snoopix/rules";
 
 	public static void main(String[] args) {
 

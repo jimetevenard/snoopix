@@ -33,9 +33,11 @@ public class RuleSet extends TreeSet<Rule> {
 		@Override
 		public int compare(Rule o1, Rule o2) {
 			// We stock Rules in decreasing order
-			return o2.getPriority() - o1.getPriority();
+			int prio = o2.getPriority() - o1.getPriority();
+			return prio == 0 ? -1 : prio;
 		}
 
 	}
+
 
 }
