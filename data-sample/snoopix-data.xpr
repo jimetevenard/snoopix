@@ -5,6 +5,9 @@
         <options/>
     </meta>
     <projectTree name="snoopix-data.xpr">
+        <folder name="Grammaire">
+            <file name="../src/main/resources/rules.xsd"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>

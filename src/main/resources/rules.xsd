@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    targetNamespace="http://jimetevenard.com/ns/validation-rules-definition"
+    xmlns:vrd="http://jimetevenard.com/ns/validation-rules-definition">
+    
+    <!-- Validation rules definition - version 1.0 -->
+    
+    <xs:element name="rules">
+        
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vrd:rule" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="version" fixed="1.0" use="required" />     
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="rule">
+        <xs:complexType>
+            <xs:choice minOccurs="1" maxOccurs="unbounded">
+                <xs:element ref="vrd:validate"></xs:element>
+                <xs:element ref="vrd:choose"></xs:element>
+            </xs:choice>
+            <xs:attribute name="match" type="xs:string" use="required"></xs:attribute>
+            <xs:attribute name="test" type="xs:string"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="validate">
+        <xs:complexType>
+            <xs:attribute name="href" type="xs:anyURI" use="optional"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="choose">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vrd:validate" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://toto">
+
+    <xs:element name="toto">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="foo" />
+                <xs:element name="bar" />
+                <xs:element name="baz" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

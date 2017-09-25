@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rules xmlns="http://jimetevenard.com/ns/snoopix/rules">
+<rules version="1.0" xmlns="http://jimetevenard.com/ns/validation-rules-definition">
     <rule match="note*.xml">
         <validate/>
     </rule>

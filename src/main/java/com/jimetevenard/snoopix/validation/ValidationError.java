@@ -8,7 +8,7 @@ public class ValidationError {
 	private ValidationErrorLevel level;
 	private String message;
 
-	ValidationError(ValidationErrorLevel level, String message) {
+	public ValidationError(ValidationErrorLevel level, String message) {
 		super();
 		this.level = level;
 		this.message = message;
@@ -24,7 +24,7 @@ public class ValidationError {
 
 	@Override
 	public String toString() {
-		return "ValidationError [level=" + level + ", message=" + message + "]";
+		return "[" + level + "] : " + message + "]";
 	}
 
 }

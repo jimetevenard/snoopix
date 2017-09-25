@@ -7,13 +7,20 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import com.jimetevenard.snoopix.Snoopix;
 import com.jimetevenard.snoopix.rule.Rule;
 import com.jimetevenard.snoopix.rule.RuleParser;
 import com.jimetevenard.snoopix.rule.RuleSet;
+import com.jimetevenard.snoopix.rule.RuleSource;
+import com.jimetevenard.snoopix.validation.ValidationStep;
+import com.jimetevenard.snoopix.validation.step.AutoValidation;
+import com.jimetevenard.snoopix.validation.step.ChooseStep;
+import com.jimetevenard.snoopix.validation.step.SingleValidationStep;
 
 public class DomRuleParser extends RuleParser {
 
@@ -32,8 +39,14 @@ public class DomRuleParser extends RuleParser {
 
 	@Override
 	public RuleSet parseRulesFile(File rulesFile) {
+		// The XML rules file must comply width src/main/resources/rules.xsd
+		// (ie Validation rules definition - version 1.0)
+
 		RuleSet ruleSet = new RuleSet();
 		try {
+			RuleSource.validateRuleFile(rulesFile);
+
+
 			Document document = builder.parse(rulesFile);
 
 			NodeList rules = document.getElementsByTagName("rule");
@@ -42,15 +55,17 @@ public class DomRuleParser extends RuleParser {
 
 				Snoopix.logger.trace("Just found a rule in " + rulesFile.getAbsolutePath());
 				Rule r = new Rule();
-				NamedNodeMap atts = rules.item(i).getAttributes();
-				NodeList vals = rules.item(i).getChildNodes();
+				NamedNodeMap attributes = rules.item(i).getAttributes();
+				NodeList stepNodes = rules.item(i).getChildNodes();
 
-				r.setFileNamePattern(atts.getNamedItem("match").getTextContent());
+				r.setFileNamePattern(attributes.getNamedItem("match").getTextContent());
 
 				r.setPriority(i); // TODO refacto... la priorité calculée sera
 									// ajoutée à cet entier
 
-				// TODO Validations
+				for (int j = 0; j < stepNodes.getLength(); j++) {
+					parseValidationStep(stepNodes.item(j), r);
+				}
 
 				ruleSet.add(r);
 
@@ -62,5 +77,50 @@ public class DomRuleParser extends RuleParser {
 
 		return ruleSet;
 	}
+
+	private void parseValidationStep(Node validationStepNode, Rule rule) {
+		// The XML rules file must comply width src/main/resources/rules.xsd
+		// (ie Validation rules definition - version 1.0)
+
+		if (isElem(validationStepNode, "validate")) {
+
+			rule.getValidationSteps().add(parseSimpleStep(validationStepNode));
+
+		} else if (isElem(validationStepNode, "choose")) {
+
+			rule.getValidationSteps().add(parseChooseStep(validationStepNode));
+
+		}
+
+	}
+
+	private ValidationStep parseSimpleStep(Node validateNode) {
+
+		if (((Element) validateNode).hasAttribute("href")) {
+			return new SingleValidationStep(((Element) validateNode).getAttribute("href"));
+		} else {
+			return new AutoValidation();
+		}
+
+	}
+
+	private ValidationStep parseChooseStep(Node validateNode) {
+
+		ChooseStep choose = new ChooseStep();
+
+		NodeList childStepNodes = validateNode.getChildNodes();
+		for (int i = 0; i < childStepNodes.getLength(); i++) {
+			if (isElem(childStepNodes.item(i), "validate")) {
+				choose.addChildStep(parseSimpleStep(childStepNodes.item(i)));
+			}
+		}
+
+		return choose;
+	}
+
+	private boolean isElem(Node node, String elemName) {
+		return node.getNodeType() == Node.ELEMENT_NODE && node.getNodeName().equals(elemName);
+	}
+
 
 }

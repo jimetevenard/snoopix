@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.xml.bind.ValidationException;
+
 import com.jimetevenard.snoopix.explorer.Explorer;
 import com.jimetevenard.snoopix.explorer.Strategy;
 import com.jimetevenard.snoopix.ruleParserImp.DomRuleParser;
@@ -65,6 +67,13 @@ public class RuleSource {
 			theRules.addAll(getApplicableRules(directory.getParentFile()));
 		}
 		return theRules;
+	}
+
+	public static void validateRuleFile(File ruleFile) throws ValidationException {
+		// TODO Validate the file !
+		if (false) {
+			throw new ValidationException("Invalid rules file : " + ruleFile.getAbsolutePath());
+		}
 	}
 
 }

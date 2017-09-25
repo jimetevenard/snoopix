@@ -1,5 +1,10 @@
 package com.jimetevenard.snoopix.validation;
 
-public abstract class ValidationStep {
+import java.io.File;
+import java.util.Collection;
+
+public interface ValidationStep {
+
+	public Collection<ValidationError> process(File file);
 
 }

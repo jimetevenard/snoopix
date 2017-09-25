@@ -4,12 +4,19 @@ import java.io.File;
 
 import com.jimetevenard.snoopix.rule.Rule;
 import com.jimetevenard.snoopix.validation.ValidationResult;
+import com.jimetevenard.snoopix.validation.ValidationStep;
 
 public class ValidationProcessor {
 
 	public static ValidationResult applyRule(File file, Rule rule) {
-		// TODO APPLY
-		return new ValidationResult(rule, file);
+
+		ValidationResult result = new ValidationResult(rule, file);
+
+		for (ValidationStep step : rule.getValidationSteps()) {
+			result.addErrors(step.process(file));
+		}
+
+		return result;
 		
 	}
 

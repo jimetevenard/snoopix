@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules version="1.0" xmlns="http://jimetevenard.com/ns/validation-rules-definition">
+    <rule match="toto*.xml">
+        <validate href="toto.dtd"/>
+		<choose>
+			<validate href="toto.xsd" />
+			<validate href="toto.sch" />
+		</choose>
+    </rule>
+
+</rules>

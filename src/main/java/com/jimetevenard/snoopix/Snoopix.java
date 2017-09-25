@@ -1,6 +1,7 @@
 package com.jimetevenard.snoopix;
 
 import java.io.File;
+import java.util.Collection;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
@@ -18,9 +19,10 @@ public class Snoopix {
 	
 	private static Strategy strategy;
 	public static final Logger logger = LogManager.getLogger(Snoopix.class);
-	public static final String NAMESPACE_URI = "http://jimetevenard.com/ns/snoopix/rules";
+	public static final String NAMESPACE_URI = "http://jimetevenard.com/ns/validation-rules-definition";
 
 	public static void main(String[] args) {
+
 
 		try {
 			CommandLineArgs arguments = new CommandLineArgs(args);
@@ -34,17 +36,33 @@ public class Snoopix {
 			Explorer explorer = new Explorer(sourceDir, strategy);
 			explorer.startExploring();
 
-			List<ValidationResult> testResultats = explorer.getResult();
-			for (ValidationResult v : testResultats) {
-				System.out.println("YOLO rrr : " + v.getFileProcessed() + " - "
-						+ (v.getRuleApplied() == null ? "No matching rule" : v.getRuleApplied().getFileNamePattern()));
-			}
+
+			// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+			List<ValidationResult> testResults = explorer.getResult();
+			testDisplayResult(testResults);
 
 		} catch (CommandLineException | ExplorationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		
 
+	}
+
+	/**
+	 * This method is for testing purpose. It just output the results in console
+	 * 
+	 * @param results
+	 */
+	private static void testDisplayResult(Collection<ValidationResult> results) {
+		System.out.println("\n======== RESULTS =========");
+		
+		for (ValidationResult v : results) {
+			System.out.println("\nFILE : " + v.getFileProcessed() + "\n\t- "
+					+ (v.isValid() ? "YES, VALID DOCUMENT\n\t- " : "OUCH, INVALID DOCUMENT ! \n\t- ")
+					+ (v.getRuleApplied() == null ? "No matching rule" : v.getRuleApplied())
+					+ "\n\t- Errors : " + v.getErrors());
+		}
 	}
 
 }

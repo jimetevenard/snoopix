@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT toto (foo,bar,baz)>
+<!ATTLIST toto xmlns CDATA "http://toto">
+<!ELEMENT foo (#PCDATA)>
+<!ELEMENT bar (#PCDATA)>
+<!ELEMENT baz (#PCDATA)>
