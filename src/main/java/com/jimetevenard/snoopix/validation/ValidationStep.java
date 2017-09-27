@@ -5,6 +5,6 @@ import java.util.Collection;
 
 public interface ValidationStep {
 
-	public Collection<ValidationError> process(File file);
+	public ValidationErrorList process(File file);
 
 }

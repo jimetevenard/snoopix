@@ -5,6 +5,6 @@
     <namespace ns="http://toto">
         <validate schema="toto.rng" ></validate>
         <validate schema="toto.xsd" ></validate>
-        <validate schema="toto.sch"></validate>
+       <!-- <validate schema="toto.sch"></validate>-->
     </namespace>
 </rules>

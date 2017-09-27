@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+ 
+    <entry key="http://www.w3.org/2001/XMLSchema">com.saxonica.ee.jaxp.SchemaFactoryImpl</entry>
+    <entry key="http://relaxng.org/ns/structure/1.0">com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactory</entry>
+    
+    
+</properties>

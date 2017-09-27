@@ -8,6 +8,7 @@ import java.util.List;
 
 import com.jimetevenard.snoopix.validation.ValidationError;
 import com.jimetevenard.snoopix.validation.ValidationError.ValidationErrorLevel;
+import com.jimetevenard.snoopix.validation.ValidationErrorList;
 import com.jimetevenard.snoopix.validation.ValidationStep;
 
 public class ChooseStep implements ValidationStep {
@@ -15,16 +16,30 @@ public class ChooseStep implements ValidationStep {
 
 	private List<ValidationStep> childValidations;
 
+	private static final ValidationError SKIP = new ValidationError(ValidationErrorLevel.INFO,
+			"Choose : A step just returned valid, so we skip the others");
+
 	public ChooseStep() {
 		super();
 		this.childValidations = new ArrayList<>();
 	}
 
 	@Override
-	public Collection<ValidationError> process(File file) {
-		// TODO implement validation
-		return Arrays.asList(new ValidationError[] {
-				new ValidationError(ValidationErrorLevel.WARNING, "ChooseStep not yet implemented") });
+	public ValidationErrorList process(File file) {
+		
+		ValidationErrorList chooseErrors = new ValidationErrorList();
+		
+		for (ValidationStep validationStep : childValidations) {
+			ValidationErrorList stepResult = validationStep.process(file);
+			chooseErrors.addAll(stepResult);
+			if(stepResult.isValid()){
+				chooseErrors.add(SKIP);
+				break;
+			}
+		}
+		
+		return chooseErrors;
+
 	}
 
 	public List<ValidationStep> getChildValidations() {

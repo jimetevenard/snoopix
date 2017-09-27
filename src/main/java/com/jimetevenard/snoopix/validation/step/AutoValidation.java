@@ -6,11 +6,13 @@ import java.util.Collection;
 
 import com.jimetevenard.snoopix.validation.ValidationError;
 import com.jimetevenard.snoopix.validation.ValidationError.ValidationErrorLevel;
+import com.jimetevenard.snoopix.validation.ValidationErrorList;
 import com.jimetevenard.snoopix.validation.ValidationStep;
 
 public class AutoValidation implements ValidationStep {
 
-
+	private static final ValidationError NOT_YET_IMPLEMENTED = new ValidationError(ValidationErrorLevel.WARNING,
+			"AutoValition Step not yet implemented");
 
 	public AutoValidation() {
 		super();
@@ -18,10 +20,12 @@ public class AutoValidation implements ValidationStep {
 	}
 
 	@Override
-	public Collection<ValidationError> process(File file) {
+	public ValidationErrorList process(File file) {
 		// TODO implement validation
-		return Arrays.asList(new ValidationError[] {
-				new ValidationError(ValidationErrorLevel.WARNING, "AutoValition Step not yet implemented") });
+		ValidationErrorList list = new ValidationErrorList(1);
+		list.add(NOT_YET_IMPLEMENTED);
+		return list;
+
 	}
 
 	@Override

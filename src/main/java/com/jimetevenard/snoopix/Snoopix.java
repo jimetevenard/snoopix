@@ -1,6 +1,7 @@
 package com.jimetevenard.snoopix;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Collection;
 import java.util.List;
 
@@ -25,6 +26,9 @@ public class Snoopix {
 
 
 		try {
+
+			Implementations.init();
+
 			CommandLineArgs arguments = new CommandLineArgs(args);
 			logger.trace("Snoopix starts with arguments : " + arguments);
 
@@ -42,7 +46,7 @@ public class Snoopix {
 			List<ValidationResult> testResults = explorer.getResult();
 			testDisplayResult(testResults);
 
-		} catch (CommandLineException | ExplorationException e) {
+		} catch (CommandLineException | ExplorationException | IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}		

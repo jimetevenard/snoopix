@@ -6,7 +6,7 @@ import com.jimetevenard.snoopix.rule.Rule;
 import com.jimetevenard.snoopix.validation.ValidationResult;
 import com.jimetevenard.snoopix.validation.ValidationStep;
 
-public class ValidationProcessor {
+public class RuleProcessor {
 
 	public static ValidationResult applyRule(File file, Rule rule) {
 

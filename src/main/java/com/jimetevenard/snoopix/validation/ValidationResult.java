@@ -13,7 +13,7 @@ public class ValidationResult {
 
 	private Rule ruleApplied;
 	private File fileProcessed;
-	private List<ValidationError> errors;
+	private ValidationErrorList errors;
 
 	public ValidationResult(Rule ruleApplied, File fileProcessed) {
 		super();
@@ -44,16 +44,10 @@ public class ValidationResult {
 	 * @see ValidationErrorLevel
 	 */
 	public boolean isValid(ValidationErrorLevel level) {
-		if (errors == null || errors.isEmpty()) {
+		if (errors == null) {
 			return true;
 		}
-		for (ValidationError er : errors) {
-			if (er.getLevel().compareTo(level) >= 0) {
-				return false;
-			}
-		}
-
-		return true; // but there is some warnings...
+		return errors.isValid(level);
 	}
 
 	public Rule getRuleApplied() {
@@ -72,7 +66,7 @@ public class ValidationResult {
 		if (errors == null) {
 			// for performance purpose, we instanciate the list only if there is
 			// actually errors
-			errors = new ArrayList<>();
+			errors = new ValidationErrorList();
 		}
 		errors.add(error);
 	}
@@ -81,7 +75,7 @@ public class ValidationResult {
 		if (this.errors == null) {
 			// for performance purpose, we instanciate the list only if there is
 			// actually errors
-			this.errors = new ArrayList<>();
+			this.errors = new ValidationErrorList();
 		}
 		this.errors.addAll(errors);
 	}
@@ -90,7 +84,7 @@ public class ValidationResult {
 		if (this.errors == null) {
 			// for performance purpose, we instanciate the list only if there is
 			// actually errors
-			this.errors = new ArrayList<>();
+			this.errors = new ValidationErrorList();
 		}
 		this.errors.addAll(Arrays.asList(errors));
 	}
