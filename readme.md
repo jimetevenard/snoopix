@@ -1,4 +1,7 @@
 # SnoopiX
+*__Etat Actuel du projet :__ Non fonctionnel :*  
+*La structure de l'application est codée et fonctionnelle (Association des bonnes règles avec les bon fichiers.*  
+*L'implémentation concrète des validations reste à coder.*
 
 **SnoopiX** est un petit utilitaire destiné à parcourir récursivement des répertoires, pour valider des documents XML selon différentes grammaires. 
  
